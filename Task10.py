@@ -16,7 +16,7 @@ k = 0
 coins = [0, 1]
 for i in range(amount_coin):
     random.shuffle(coins)
-    print(f'все монеты{coins}')
+    print(f'все монеты {coins}')
     if int(coins[0]) == 0:
         k += 1
     if int(coins[0]) == 1:
